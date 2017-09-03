@@ -14,8 +14,6 @@ class RoleRelation:
     relation_root_path = "PycharmProjects/mybooks/Relation"
     nh_relation_root_path = "PycharmProjects/mybooks/NHRelation"
 
-
-
     seg = Segmentor()
     seg.load(ltp_model_path + '/cws.model')
     postagger = Postagger() # 初始化实例
