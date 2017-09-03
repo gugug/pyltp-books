@@ -3,7 +3,7 @@
 ![结构](https://github.com/gugug/pyltp-books/blob/master/PrtScr/system-structure.png) <br />
 
 ## 主要人物（地点）篇幅统计策略
-本文对小说主要人物（地点）的衡量指标有两个，第一个是在文中出现的次数（词频），第二这是在文中的覆盖范围（文档频率）。基于这二者，篇幅占比的统计策略如下：
+本文对小说主要人物（地点）的衡量指标有两个，第一个是在文中出现的次数（词频），第二这是在文中的覆盖范围（文档频率）。基于这二者，篇幅占比的统计策略如下：<br />
 ![主要人物地点](https://github.com/gugug/pyltp-books/blob/master/PrtScr/main-peo-local.png) <br />
 步骤：
 1. 提取小说每一章节，进行命名实体识别
